@@ -38,7 +38,7 @@ const MovieCard = ({ movie, index }) => {
         <Box sx={{ position: "relative" }}>
           <CardMedia
             component="img"
-            height="400" // Fixed height with proper aspect ratio
+            height="400"
             image={
               movie.poster_path
                 ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`

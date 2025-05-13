@@ -13,7 +13,6 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   const login = (username, password) => {
-    // In a real app, you would verify credentials with a backend
     const userData = {
       username,
       token: Math.random().toString(36).substring(7),

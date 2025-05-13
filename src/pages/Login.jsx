@@ -50,7 +50,6 @@ const Login = () => {
         justifyContent: "center",
         alignItems: "center",
         "&::before": {
-          // This adds the overlay
           content: '""',
           position: "absolute",
           top: 0,

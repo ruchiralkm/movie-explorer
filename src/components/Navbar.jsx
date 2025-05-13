@@ -51,7 +51,7 @@ const Navbar = () => {
       sx={{
         width: 250,
         height: "100%",
-        backgroundColor: "white", // Force white for mobile drawer
+        backgroundColor: "white",
         color: "black",
       }}
     >
@@ -136,7 +136,7 @@ const Navbar = () => {
         position="fixed"
         elevation={0}
         sx={{
-          backgroundColor: "black", // Force black for desktop appbar
+          backgroundColor: "black",
         }}
       >
         <Toolbar>
@@ -235,7 +235,7 @@ const Navbar = () => {
             "& .MuiDrawer-paper": {
               boxSizing: "border-box",
               width: 250,
-              backgroundColor: "white", // Force white background
+              backgroundColor: "white",
             },
           }}
         >
@@ -243,7 +243,6 @@ const Navbar = () => {
         </Drawer>
       </Box>
 
-      {/* Content padding for AppBar */}
       <Box component="main" sx={{ p: 0 }}>
         <Toolbar />
       </Box>
